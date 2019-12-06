@@ -7,22 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="1198">
     <Grid Margin="10,0,0,-0.333">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="White" Offset="0.5"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TextBox Name="txtValore" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="54" Margin="507,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="116"/>
-        <Button Content="*0,001" HorizontalAlignment="Left" Margin="338,73,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_5"/>
-        <Button Content="*0,1" HorizontalAlignment="Left" Margin="682,73,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_3"/>
-        <Button Content="*0,01" HorizontalAlignment="Left" Margin="507,73,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_4"/>
-        <Button Content="-1" HorizontalAlignment="Left" Margin="338,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_6"/>
-        <Button Content="-0,1" HorizontalAlignment="Left" Margin="177,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_7"/>
-        <Button Content="-0,01" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_8"/>
-        <Button Content="+1" HorizontalAlignment="Left" Margin="682,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click"/>
-        <Button Content="/0,01" HorizontalAlignment="Left" Margin="507,304,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_10"/>
-        <Button Content="/0,1" HorizontalAlignment="Left" Margin="338,304,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_9"/>
-        <Button Content="/0,001" HorizontalAlignment="Left" Margin="682,304,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_11"/>
-        <Button Content="+0,1" HorizontalAlignment="Left" Margin="858,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_1"/>
-        <Button Content="+0,01" HorizontalAlignment="Left" Margin="1027,184,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_2"/>
+        <TextBox Name="txtValore" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="54" Margin="507,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="116" FontSize="20"/>
+        <Button Content="*0,001" HorizontalAlignment="Left" Margin="338,73,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_5" Background="#FFA4A4A4" FontSize="18"/>
+        <Button Content="*0,1" HorizontalAlignment="Left" Margin="682,73,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_3" Background="#FFA4A4A4" FontSize="18"/>
+        <Button Content="*0,01" HorizontalAlignment="Left" Margin="507,73,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_4" Background="#FFA4A4A4" FontSize="18"/>
+        <Button Content="-1" HorizontalAlignment="Left" Margin="338,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_6" Background="#FF9F9F9F" FontSize="18"/>
+        <Button Content="-0,1" HorizontalAlignment="Left" Margin="177,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_7" FontSize="18" Background="#FFA4A4A4"/>
+        <Button Content="-0,01" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_8" Background="#FFA4A4A4" FontSize="18"/>
+        <Button Content="+1" HorizontalAlignment="Left" Margin="682,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click" FontSize="18" Background="#FFA4A4A4"/>
+        <Button Content="/0,01" HorizontalAlignment="Left" Margin="507,304,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_10" Background="#FFA4A4A4" FontSize="18"/>
+        <Button Content="/0,1" HorizontalAlignment="Left" Margin="338,304,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_9" Background="#FFA4A4A4" FontSize="18"/>
+        <Button Content="/0,001" HorizontalAlignment="Left" Margin="682,304,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_11" Background="#FFA4A4A4" FontSize="18"/>
+        <Button Content="+0,1" HorizontalAlignment="Left" Margin="858,185,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_1" Background="#FFA4A4A4" FontSize="18"/>
+        <Button Content="+0,01" HorizontalAlignment="Left" Margin="1027,184,0,0" VerticalAlignment="Top" Width="116" Height="54" Click="Button_Click_2" Background="#FFA4A4A4" FontSize="18"/>
     </Grid>
 </Window>
